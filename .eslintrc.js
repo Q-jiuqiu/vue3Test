@@ -20,6 +20,7 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-this-alias": "off",
     "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/no-unused-vars": "error",
     // 使用三等号而不是双等号
     eqeqeq: "warn",
     // async函数中必须具有await表达式
