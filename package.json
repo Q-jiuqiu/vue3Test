@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "lint-commit": "lint-staged"
   },
   "dependencies": {
     "@dist/quark-next": "^0.0.6",
@@ -44,7 +45,7 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{js,vue}": [
+    "src/**/*.{vue,js,jsx,ts,tsx}": [
       "yarn lint",
       "git add"
     ]
