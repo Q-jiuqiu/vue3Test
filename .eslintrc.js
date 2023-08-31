@@ -16,7 +16,13 @@ module.exports = {
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
-    "prettier/prettier": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        // 维护现有的行尾
+        endOfLine: "auto"
+      }
+    ],
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-this-alias": "off",
     "@typescript-eslint/ban-ts-comment": "off",
