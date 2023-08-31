@@ -1036,6 +1036,11 @@
     vue-router "^4.0.3"
     vue-toasted "^1.1.28"
 
+"@dist/utils@^1.1.1":
+  version "1.1.1"
+  resolved "http://elb-791125809.cn-northwest-1.elb.amazonaws.com.cn:7799/repository/dist-front/@dist/utils/-/utils-1.1.1.tgz#2c990b7d92cb5338827ab6f954e1fa1c37cbc70f"
+  integrity sha512-F9BUmw0fmWHbRKoEuvKVDT5UHaXmLEamlfYjnlPBdNf/dxhF4vtT/q+7QsytYUWfT5xxtFO+u62dUknYDslGZw==
+
 "@emmetio/codemirror-plugin@^1.2.1":
   version "1.2.4"
   resolved "https://registry.npmmirror.com/@emmetio/codemirror-plugin/-/codemirror-plugin-1.2.4.tgz#f880a36098536f6555747eadece9b7cc2df597e3"
